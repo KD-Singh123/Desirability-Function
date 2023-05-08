@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #c210f8;
+  --background-color: #FFFF00;
+  --secondary-background-color: #46b7e3;
+  --text-color: #FFFFFF;
+  --font: sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font);
+}
+
+.sidebar .sidebar-content {
+  background-color: var(--secondary-background-color);
+}
+
+button, a {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover, a:hover {
+  background-color: darken(var(--primary-color), 10%);
+  cursor: pointer;
+}
